@@ -1,0 +1,10 @@
+[build]
+  functions = "netlify/functions"
+
+[functions]
+  # This helps with environment variable loading
+  node_bundler = "esbuild"
+
+[context.production.environment]
+  TELEGRAM_BOT_TOKEN = "8240409701:AAGbL5WxV3k-9aNaHLJGH_DWPO0gdxObNK8"
+  TELEGRAM_CHAT_ID = "5794661181"
